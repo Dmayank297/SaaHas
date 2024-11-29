@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SaaHas</string>
+    <string name="accessibility_service_description">This service detects Volume Up and Volume Down button presses to enhance app functionality for accessibility purposes.</string>
 </resources>
