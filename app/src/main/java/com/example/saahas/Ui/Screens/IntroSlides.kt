@@ -1,17 +1,15 @@
-package com.example.saahas
+package com.example.saahas.Ui.Screens
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.view.animation.TranslateAnimation
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.saahas.MainActivity
+import com.example.saahas.R
 
-    private lateinit var cards: List<CardView>
+private lateinit var cards: List<CardView>
     private var currentIndex = -1
     private val edgePadding = 50f
 
@@ -70,6 +68,6 @@ import androidx.core.view.WindowInsetsCompat
     }
 
     private fun openNextActivity() {
-        val intent=Intent(this,)
+        val intent = Intent(this, )
     }
 }
